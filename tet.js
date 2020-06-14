@@ -3,6 +3,9 @@ $(document).ready(function () {
     $("#thesis").on( "click", function(){
         working();
     })
+    $("#punny").on( "click", function(){
+        johnCena();
+    })
 } 
 );
 
@@ -15,3 +18,7 @@ working = () => {
 $( "#target" ).click(function() {
     alert( "Handler for .click() called." );
   });
+
+function johnCena () {
+    console.log("funny");
+  }
