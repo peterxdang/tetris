@@ -6,6 +6,9 @@ $(document).ready(function () {
     $("#punny").on( "click", function(){
         johnCena();
     })
+    $("#btn1").on("click", function(){
+        johnCena();
+    })
 } 
 );
 
@@ -22,3 +25,4 @@ $( "#target" ).click(function() {
 function johnCena () {
     console.log("funny");
   }
+
