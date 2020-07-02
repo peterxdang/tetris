@@ -1,21 +1,20 @@
-$(document).ready(function () {
+$(document).ready(function() {
     console.log("hello world")
-    $("#thesis").on( "click", function(){
+    $("#thesis").on("click", function() {
         working();
     })
-    $("#punny").on( "click", function(){
+    $("#punny").on("click", function() {
         johnCena();
     })
-    $("#btn1").on( "click", function(){
+    $("#btn1").on("click", function() {
         createElement();
     })
-   
-} 
-);
+
+});
 
 
 createElement = () => {
-    $(".class1").append("<h3>Working</h3>")
+    $(".class1").append(`<div class = "box1"></div>`)
 }
 
 working = () => {
@@ -23,11 +22,10 @@ working = () => {
 
 }
 
-$( "#target" ).click(function() {
-    alert( "Handler for .click() called." );
-  });
+$("#target").click(function() {
+    alert("Handler for .click() called.");
+});
 
-function johnCena () {
+function johnCena() {
     console.log("funny");
-  }
-
+}
