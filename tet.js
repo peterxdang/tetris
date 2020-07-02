@@ -6,12 +6,17 @@ $(document).ready(function () {
     $("#punny").on( "click", function(){
         johnCena();
     })
-    $("#btn1").on("click", function(){
-        johnCena();
+    $("#btn1").on( "click", function(){
+        createElement();
     })
+   
 } 
 );
 
+
+createElement = () => {
+    $(".class1").append("<h3>Working</h3>")
+}
 
 working = () => {
     console.log("just kidding");
