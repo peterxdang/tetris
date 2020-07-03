@@ -4,10 +4,19 @@ $(document).ready(function() {
         working();
     })
     $("#punny").on("click", function() {
-        johnCena();
-    })
+            johnCena();
+        })
+        // $("#btn1").on("click", function() {
+        //     createElement();
+        // })
     $("#btn1").on("click", function() {
-        createElement();
+        setInterval(function() {
+            // theAlert();
+            createElement();
+        }, 5000);
+    })
+    $("#btn2").on("click", function() {
+        deleteClass();
     })
 
 });
@@ -28,4 +37,12 @@ $("#target").click(function() {
 
 function johnCena() {
     console.log("funny");
+}
+
+theAlert = () => {
+    alert("Timer is working")
+}
+
+deleteClass = () => {
+    $("div").remove(".box1");
 }
