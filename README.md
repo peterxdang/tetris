@@ -11,7 +11,11 @@ Purpose: The purpose of this application is to revisit jQuery, and React.js to c
 2. Create button to append html elements
 
 7.02.20
-1. 
+1. Created function to delete appended elements created
+2. Created function that append elements according to time
+3. Appended numbered elements through a function
+    A. learned how to pass variables in back ticks
+4. Create block existed in TetrisUI every 1 second
 
 
 List of things to do:
